@@ -2,6 +2,7 @@ package bo.edu.ucb.est;
 import bo.edu.ucb.est.modelo.Banco;
 import bo.edu.ucb.est.modelo.Cliente;
 import bo.edu.ucb.est.modelo.Cuenta;
+import bo.edu.ucb.est.modelo.Cajero;
 
 /**
  * Hello world!
@@ -35,5 +36,6 @@ public class App
         cgomez.agregarCuenta(cta3Cgomez);
         bisa.agregarCliente(cgomez);
         
+        Cajero atm = new Cajero(bisa);
     }
 }
